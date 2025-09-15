@@ -126,12 +126,18 @@ async function compute(){
   try{ fs.writeFileSync(CACHE_FILE, JSON.stringify({ timestamp:Date.now(), payload }), 'utf8'); }catch{}
   return payload;
 }
-exports.handler = async () => {
+
+exports.handler = async (event) => {
+  const nocache = event?.queryStringParameters?.nocache === '1';
   try{
+    const data = await compute(nocache);
+    ...
+
     const data = await compute();
     return { statusCode:200, headers:{ 'Content-Type':'application/json; charset=utf-8', 'Cache-Control':'public, max-age=600' }, body: JSON.stringify(data) };
   }catch(err){
     return { statusCode:500, headers:{ 'Content-Type':'application/json; charset=utf-8' }, body: JSON.stringify({ error:String(err) }) };
   }
 };
+
 
