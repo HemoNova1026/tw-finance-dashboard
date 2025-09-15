@@ -93,13 +93,17 @@ async function trendsScore(term){
     return Math.round(avg);
   }catch{ return 0; }
 }
-async function compute(){
+async function compute(nocache=false){
   const fs = require('fs');
   try{
-    if (fs.existsSync(CACHE_FILE)){
+    if (!nocache && fs.existsSync(CACHE_FILE)){
       const cached = JSON.parse(fs.readFileSync(CACHE_FILE,'utf8'));
       if (Date.now() - cached.timestamp < TTL_MS) return cached.payload;
     }
+  }catch{}
+  ...
+}
+
   }catch{}
   const titles = await crawlPTT();
   const counts = collectCounts(titles);
@@ -139,5 +143,6 @@ exports.handler = async (event) => {
     return { statusCode:500, headers:{ 'Content-Type':'application/json; charset=utf-8' }, body: JSON.stringify({ error:String(err) }) };
   }
 };
+
 
 
