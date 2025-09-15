@@ -11,3 +11,9 @@
   to = "/.netlify/functions/stock-trends"
   status = 200
   force = true
+
+  [functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["xml2js", "jsdom", "google-trends-api"]
+
+
