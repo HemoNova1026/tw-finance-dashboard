@@ -1,3 +1,36 @@
+// 退避重試版 fetch：自動處理 429、5xx，且不強制把回應當 JSON 解析
+async function fetchWithRetry(url, opts = {}, retries = 3, backoff = 800) {
+  const headers = {
+    'user-agent':
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36',
+    'accept': '*/*',
+    ...((opts && opts.headers) || {}),
+  };
+
+  for (let i = 0; i <= retries; i++) {
+    const res = await fetch(url, { ...opts, headers });
+    const ct = (res.headers.get('content-type') || '').toLowerCase();
+    const text = await res.text();
+
+    if (res.ok) {
+      // 只有在 content-type 明確是 json 才解析
+      if (ct.includes('application/json') || ct.includes('application/ld+json')) {
+        try { return JSON.parse(text); } catch { return text; }
+      }
+      return text;
+    }
+
+    // 429/5xx → 退避重試
+    if ((res.status === 429 || res.status >= 500) && i < retries) {
+      const wait = backoff * Math.pow(2, i) + Math.floor(Math.random() * 250);
+      await new Promise(r => setTimeout(r, wait));
+      continue;
+    }
+
+    // 最終失敗：丟出帶有狀態碼與前 200 字的錯誤
+    throw new Error(`HTTP ${res.status}: ${text.s
+
+
 // Netlify Function: stock-trends
 // 來源：PTT Stock 看板 + Google Trends 熱度（台灣，近 7 天）
 // 結果：輸出 TOP20，格式與 /data/taiwan-keywords.json 相容
@@ -143,6 +176,7 @@ exports.handler = async (event) => {
     return { statusCode:500, headers:{ 'Content-Type':'application/json; charset=utf-8' }, body: JSON.stringify({ error:String(err) }) };
   }
 };
+
 
 
 
