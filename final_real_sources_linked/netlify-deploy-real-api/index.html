@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="台股財經儀表板 v2.1 - 真實API版，提供即時美國四大指數、台股熱門關鍵字、產業新聞等財經資訊" />
+    <meta name="keywords" content="台股,財經,股市,新聞,美股,指數,AI,科技股,傳統產業,金融股,生技股,軍工股,即時API" />
+    <meta name="author" content="Taiwan Finance Dashboard" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="台股財經儀表板 v2.1 - 真實API版" />
+    <meta property="og:description" content="提供即時美國四大指數、台股熱門關鍵字、產業新聞等財經資訊" />
+    <meta property="og:type" content="website" />
+    
+    <title>台股財經儀表板 - 每日市場焦點</title>
+    
+    <!-- 載入配置檔案 -->
+    <script src="./config.js"></script>
+    
+    <!-- 主要應用程式檔案 -->
+    <!-- Intercept industry & US econ news to serverless Google News RSS aggregator -->
+    <script>
+      (function(){
+        const ORIG_FETCH = window.fetch.bind(window);
+        const map = {
+          'data/industry-news.json': '/.netlify/functions/news?mode=industry&hl=zh-TW&gl=TW',
+          'data/us-economic-news.json': '/.netlify/functions/news?mode=us_econ&hl=zh-TW&gl=TW',
+          'data/us-indices.json': '/.netlify/functions/usindices'
+        };
+        window.fetch = async function(input, init){
+          try {
+            const url = (typeof input === 'string') ? input : (input && input.url) || '';
+            for (const k in map){
+              if (url.includes(k)){
+                return ORIG_FETCH(map[k], init);
+              }
+            }
+          } catch(e){ console.warn('news/usindices interceptor failed', e); }
+          return ORIG_FETCH(input, init);
+        };
+        console.log('[News/Indices] interceptors installed');
+      })();
+      
+      // Make US index tiles clickable to Yahoo Finance pages (best-effort)
+      (function(){
+        const links = {
+          '道瓊工業指數': 'https://finance.yahoo.com/quote/%5EDJI',
+          '標普500': 'https://finance.yahoo.com/quote/%5EGSPC',
+          '那斯達克': 'https://finance.yahoo.com/quote/%5EIXIC',
+          '費城半導體': 'https://finance.yahoo.com/quote/%5ESOX'
+        };
+        function enhance(){
+          try{
+            const textNodes = Object.keys(links);
+            textNodes.forEach(name => {
+              const els = Array.from(document.querySelectorAll('*')).filter(el => el.childElementCount===0 && el.textContent.trim()===name);
+              els.forEach(el => {
+                const card = el.closest('[role="button"], .card, .tile, .shadow, .rounded, div');
+                const target = card || el;
+                if (target && !target.__yfBound){
+                  target.style.cursor = 'pointer';
+                  target.addEventListener('click', ()=> window.open(links[name], '_blank'));
+                  target.__yfBound = true;
+                }
+              });
+            });
+          }catch(e){}
+        }
+        const obs = new MutationObserver(()=> setTimeout(enhance, 500));
+        obs.observe(document.documentElement, {subtree:true, childList:true});
+        window.addEventListener('DOMContentLoaded', enhance);
+        setTimeout(enhance, 1500);
+      })();
+    </script>
+
+    
+    <script type="module" crossorigin src="./assets/index-B4pZZ_yq.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DkxZYwTq.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- 版本資訊 -->
+    <script>
+      console.log('台股財經儀表板 v2.1 (真實API版)');
+      console.log('建置時間:', new Date().toLocaleString('zh-TW'));
+      console.log('API功能: Yahoo Finance + Google News + NewsAPI');
+    </script>
+  </body>
+</html>

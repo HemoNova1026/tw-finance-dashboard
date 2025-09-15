@@ -1,0 +1,58 @@
+[
+  {
+    "id": "dow",
+    "name": "道瓊工業指數",
+    "symbol": "DJI",
+    "color": "#1f77b4",
+    "currentPrice": 35443.34913882429,
+    "previousClose": 34500,
+    "change": 54.00800565481085,
+    "changePercent": 0.054236007707488376,
+    "dayHigh": 34908.5757917357,
+    "dayLow": 34338.278048045126,
+    "volume": 447911254,
+    "lastUpdate": "2025-09-15T02:52:14.415Z"
+  },
+  {
+    "id": "sp500",
+    "name": "S&P 500",
+    "symbol": "SPX",
+    "color": "#ff7f0e",
+    "currentPrice": 4420.79697105069,
+    "previousClose": 4400,
+    "change": 13.96075542016441,
+    "changePercent": 0.2109472895670482,
+    "dayHigh": 4437.161936774397,
+    "dayLow": 4373.174171131607,
+    "volume": 104458648,
+    "lastUpdate": "2025-09-15T02:52:14.415Z"
+  },
+  {
+    "id": "nasdaq",
+    "name": "那斯達克",
+    "symbol": "IXIC",
+    "color": "#2ca02c",
+    "currentPrice": 13638.322538105442,
+    "previousClose": 13500,
+    "change": 19.61169118600894,
+    "changePercent": -0.42700182143812393,
+    "dayHigh": 13639.49307914232,
+    "dayLow": 13400.30665106587,
+    "volume": 681409883,
+    "lastUpdate": "2025-09-15T02:52:14.415Z"
+  },
+  {
+    "id": "philadelphia",
+    "name": "費城半導體",
+    "symbol": "SOX",
+    "color": "#d62728",
+    "currentPrice": 3277.506666329939,
+    "previousClose": 3200,
+    "change": 21.642235080523577,
+    "changePercent": -0.09538937520423063,
+    "dayHigh": 3260.1519351219554,
+    "dayLow": 3173.2712634753952,
+    "volume": 42794100,
+    "lastUpdate": "2025-09-15T02:52:14.415Z"
+  }
+]

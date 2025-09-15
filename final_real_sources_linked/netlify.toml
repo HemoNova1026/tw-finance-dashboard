@@ -1,0 +1,31 @@
+[build]
+  publish = "netlify-deploy-real-api"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["xml2js"]
+
+[[redirects]]
+  from = "/data/taiwan-keywords.json"
+  to = "/.netlify/functions/trends?format=taiwan-keywords&geo=TW&hl=zh-TW"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/data/industry-news.json"
+  to = "/.netlify/functions/news?mode=industry&hl=zh-TW&gl=TW"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/data/us-economic-news.json"
+  to = "/.netlify/functions/news?mode=us_econ&hl=zh-TW&gl=TW"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/data/us-indices.json"
+  to = "/.netlify/functions/usindices"
+  status = 200
+  force = true

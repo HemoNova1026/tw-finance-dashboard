@@ -1,0 +1,2712 @@
+{
+  "AI_TECH": {
+    "散熱": {
+      "categoryName": "散熱",
+      "news": [
+        {
+          "id": "news_AI_TECH_散熱_1757904734418_0",
+          "title": "散熱產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/散熱/1",
+          "publishDate": "2025-09-14T10:11:19.776Z",
+          "description": "這是關於散熱產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "散熱",
+          "views": 9815,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_散熱_1757904734418_1",
+          "title": "散熱產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/散熱/2",
+          "publishDate": "2025-09-14T23:33:42.583Z",
+          "description": "這是關於散熱產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "散熱",
+          "views": 2742,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_散熱_1757904734418_2",
+          "title": "散熱產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/散熱/3",
+          "publishDate": "2025-09-14T08:45:34.390Z",
+          "description": "這是關於散熱產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "散熱",
+          "views": 5481,
+          "isHot": true
+        },
+        {
+          "id": "news_AI_TECH_散熱_1757904734418_3",
+          "title": "散熱產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/散熱/4",
+          "publishDate": "2025-09-14T21:53:32.800Z",
+          "description": "這是關於散熱產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "散熱",
+          "views": 4964,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_散熱_1757904734418_4",
+          "title": "散熱產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/散熱/5",
+          "publishDate": "2025-09-14T08:34:04.096Z",
+          "description": "這是關於散熱產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "散熱",
+          "views": 3117,
+          "isHot": false
+        }
+      ]
+    },
+    "pcb": {
+      "categoryName": "PCB",
+      "news": [
+        {
+          "id": "news_AI_TECH_PCB_1757904734418_0",
+          "title": "PCB產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/PCB/1",
+          "publishDate": "2025-09-14T21:52:56.794Z",
+          "description": "這是關於PCB產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "PCB",
+          "views": 6779,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_PCB_1757904734418_1",
+          "title": "PCB產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/PCB/2",
+          "publishDate": "2025-09-14T10:42:01.078Z",
+          "description": "這是關於PCB產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "PCB",
+          "views": 2607,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_PCB_1757904734418_2",
+          "title": "PCB產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/PCB/3",
+          "publishDate": "2025-09-14T17:00:26.932Z",
+          "description": "這是關於PCB產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "PCB",
+          "views": 10098,
+          "isHot": true
+        },
+        {
+          "id": "news_AI_TECH_PCB_1757904734418_3",
+          "title": "PCB產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/PCB/4",
+          "publishDate": "2025-09-14T20:37:51.176Z",
+          "description": "這是關於PCB產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "PCB",
+          "views": 2111,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_PCB_1757904734418_4",
+          "title": "PCB產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/PCB/5",
+          "publishDate": "2025-09-14T10:22:02.073Z",
+          "description": "這是關於PCB產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "PCB",
+          "views": 8396,
+          "isHot": true
+        }
+      ]
+    },
+    "光纖": {
+      "categoryName": "光纖",
+      "news": [
+        {
+          "id": "news_AI_TECH_光纖_1757904734418_0",
+          "title": "光纖產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光纖/1",
+          "publishDate": "2025-09-14T10:50:33.714Z",
+          "description": "這是關於光纖產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "光纖",
+          "views": 8931,
+          "isHot": true
+        },
+        {
+          "id": "news_AI_TECH_光纖_1757904734418_1",
+          "title": "光纖產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光纖/2",
+          "publishDate": "2025-09-14T21:20:05.868Z",
+          "description": "這是關於光纖產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "光纖",
+          "views": 1536,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_光纖_1757904734418_2",
+          "title": "光纖產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光纖/3",
+          "publishDate": "2025-09-14T04:10:32.808Z",
+          "description": "這是關於光纖產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "光纖",
+          "views": 2680,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_光纖_1757904734418_3",
+          "title": "光纖產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光纖/4",
+          "publishDate": "2025-09-14T17:04:54.360Z",
+          "description": "這是關於光纖產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "光纖",
+          "views": 7475,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_光纖_1757904734418_4",
+          "title": "光纖產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光纖/5",
+          "publishDate": "2025-09-14T03:17:21.074Z",
+          "description": "這是關於光纖產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "光纖",
+          "views": 10411,
+          "isHot": true
+        }
+      ]
+    },
+    "機殼": {
+      "categoryName": "機殼",
+      "news": [
+        {
+          "id": "news_AI_TECH_機殼_1757904734418_0",
+          "title": "機殼產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/機殼/1",
+          "publishDate": "2025-09-14T12:17:45.377Z",
+          "description": "這是關於機殼產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "機殼",
+          "views": 2102,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_機殼_1757904734418_1",
+          "title": "機殼產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/機殼/2",
+          "publishDate": "2025-09-14T18:22:31.632Z",
+          "description": "這是關於機殼產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "機殼",
+          "views": 7228,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_機殼_1757904734418_2",
+          "title": "機殼產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/機殼/3",
+          "publishDate": "2025-09-14T10:47:45.268Z",
+          "description": "這是關於機殼產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "機殼",
+          "views": 1143,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_機殼_1757904734418_3",
+          "title": "機殼產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/機殼/4",
+          "publishDate": "2025-09-14T23:27:55.529Z",
+          "description": "這是關於機殼產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "機殼",
+          "views": 8914,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_機殼_1757904734418_4",
+          "title": "機殼產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/機殼/5",
+          "publishDate": "2025-09-14T06:41:29.096Z",
+          "description": "這是關於機殼產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "機殼",
+          "views": 3242,
+          "isHot": true
+        }
+      ]
+    },
+    "記憶體": {
+      "categoryName": "記憶體",
+      "news": [
+        {
+          "id": "news_AI_TECH_記憶體_1757904734418_0",
+          "title": "記憶體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/記憶體/1",
+          "publishDate": "2025-09-14T23:40:22.929Z",
+          "description": "這是關於記憶體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "記憶體",
+          "views": 1144,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_記憶體_1757904734418_1",
+          "title": "記憶體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/記憶體/2",
+          "publishDate": "2025-09-14T08:22:10.584Z",
+          "description": "這是關於記憶體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "記憶體",
+          "views": 4684,
+          "isHot": true
+        },
+        {
+          "id": "news_AI_TECH_記憶體_1757904734418_2",
+          "title": "記憶體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/記憶體/3",
+          "publishDate": "2025-09-14T08:19:44.920Z",
+          "description": "這是關於記憶體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "記憶體",
+          "views": 7249,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_記憶體_1757904734418_3",
+          "title": "記憶體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/記憶體/4",
+          "publishDate": "2025-09-14T20:18:42.739Z",
+          "description": "這是關於記憶體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "記憶體",
+          "views": 9258,
+          "isHot": true
+        },
+        {
+          "id": "news_AI_TECH_記憶體_1757904734418_4",
+          "title": "記憶體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/記憶體/5",
+          "publishDate": "2025-09-14T03:30:26.747Z",
+          "description": "這是關於記憶體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "記憶體",
+          "views": 6883,
+          "isHot": false
+        }
+      ]
+    },
+    "半導體": {
+      "categoryName": "半導體",
+      "news": [
+        {
+          "id": "news_AI_TECH_半導體_1757904734419_0",
+          "title": "半導體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/半導體/1",
+          "publishDate": "2025-09-14T18:21:44.698Z",
+          "description": "這是關於半導體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "半導體",
+          "views": 5113,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_半導體_1757904734419_1",
+          "title": "半導體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/半導體/2",
+          "publishDate": "2025-09-14T12:58:06.386Z",
+          "description": "這是關於半導體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "半導體",
+          "views": 9156,
+          "isHot": true
+        },
+        {
+          "id": "news_AI_TECH_半導體_1757904734419_2",
+          "title": "半導體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/半導體/3",
+          "publishDate": "2025-09-14T14:28:00.703Z",
+          "description": "這是關於半導體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "半導體",
+          "views": 3374,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_半導體_1757904734419_3",
+          "title": "半導體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/半導體/4",
+          "publishDate": "2025-09-14T07:45:52.668Z",
+          "description": "這是關於半導體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "半導體",
+          "views": 3076,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_半導體_1757904734419_4",
+          "title": "半導體產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/半導體/5",
+          "publishDate": "2025-09-14T08:24:58.883Z",
+          "description": "這是關於半導體產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "半導體",
+          "views": 4889,
+          "isHot": false
+        }
+      ]
+    },
+    "面板顯示": {
+      "categoryName": "面板顯示",
+      "news": [
+        {
+          "id": "news_AI_TECH_面板顯示_1757904734419_0",
+          "title": "面板顯示產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/面板顯示/1",
+          "publishDate": "2025-09-14T09:48:14.886Z",
+          "description": "這是關於面板顯示產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "面板顯示",
+          "views": 10994,
+          "isHot": true
+        },
+        {
+          "id": "news_AI_TECH_面板顯示_1757904734419_1",
+          "title": "面板顯示產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/面板顯示/2",
+          "publishDate": "2025-09-14T10:01:35.969Z",
+          "description": "這是關於面板顯示產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "面板顯示",
+          "views": 7073,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_面板顯示_1757904734419_2",
+          "title": "面板顯示產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/面板顯示/3",
+          "publishDate": "2025-09-14T06:55:53.044Z",
+          "description": "這是關於面板顯示產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "面板顯示",
+          "views": 3032,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_面板顯示_1757904734419_3",
+          "title": "面板顯示產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/面板顯示/4",
+          "publishDate": "2025-09-14T23:47:30.331Z",
+          "description": "這是關於面板顯示產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "面板顯示",
+          "views": 4953,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_面板顯示_1757904734419_4",
+          "title": "面板顯示產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/面板顯示/5",
+          "publishDate": "2025-09-14T19:42:45.470Z",
+          "description": "這是關於面板顯示產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "面板顯示",
+          "views": 4188,
+          "isHot": true
+        }
+      ]
+    },
+    "電源供應": {
+      "categoryName": "電源供應",
+      "news": [
+        {
+          "id": "news_AI_TECH_電源供應_1757904734419_0",
+          "title": "電源供應產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/電源供應/1",
+          "publishDate": "2025-09-14T18:10:45.879Z",
+          "description": "這是關於電源供應產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "電源供應",
+          "views": 4224,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_電源供應_1757904734419_1",
+          "title": "電源供應產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/電源供應/2",
+          "publishDate": "2025-09-14T08:07:12.826Z",
+          "description": "這是關於電源供應產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "電源供應",
+          "views": 2574,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_電源供應_1757904734419_2",
+          "title": "電源供應產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/電源供應/3",
+          "publishDate": "2025-09-14T16:23:58.784Z",
+          "description": "這是關於電源供應產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "電源供應",
+          "views": 8411,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_電源供應_1757904734419_3",
+          "title": "電源供應產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/電源供應/4",
+          "publishDate": "2025-09-14T10:06:16.008Z",
+          "description": "這是關於電源供應產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "電源供應",
+          "views": 10568,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_電源供應_1757904734419_4",
+          "title": "電源供應產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/電源供應/5",
+          "publishDate": "2025-09-14T09:16:39.435Z",
+          "description": "這是關於電源供應產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "電源供應",
+          "views": 4254,
+          "isHot": false
+        }
+      ]
+    },
+    "連接器": {
+      "categoryName": "連接器",
+      "news": [
+        {
+          "id": "news_AI_TECH_連接器_1757904734419_0",
+          "title": "連接器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/連接器/1",
+          "publishDate": "2025-09-14T04:23:04.806Z",
+          "description": "這是關於連接器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "連接器",
+          "views": 1792,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_連接器_1757904734419_1",
+          "title": "連接器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/連接器/2",
+          "publishDate": "2025-09-14T04:22:17.069Z",
+          "description": "這是關於連接器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "連接器",
+          "views": 7785,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_連接器_1757904734419_2",
+          "title": "連接器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/連接器/3",
+          "publishDate": "2025-09-15T00:19:09.845Z",
+          "description": "這是關於連接器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "連接器",
+          "views": 8908,
+          "isHot": true
+        },
+        {
+          "id": "news_AI_TECH_連接器_1757904734419_3",
+          "title": "連接器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/連接器/4",
+          "publishDate": "2025-09-14T15:26:47.635Z",
+          "description": "這是關於連接器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "連接器",
+          "views": 10246,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_連接器_1757904734419_4",
+          "title": "連接器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/連接器/5",
+          "publishDate": "2025-09-14T11:53:46.835Z",
+          "description": "這是關於連接器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "連接器",
+          "views": 8623,
+          "isHot": false
+        }
+      ]
+    },
+    "感測器": {
+      "categoryName": "感測器",
+      "news": [
+        {
+          "id": "news_AI_TECH_感測器_1757904734419_0",
+          "title": "感測器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/感測器/1",
+          "publishDate": "2025-09-14T10:44:34.427Z",
+          "description": "這是關於感測器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "感測器",
+          "views": 1191,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_感測器_1757904734419_1",
+          "title": "感測器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/感測器/2",
+          "publishDate": "2025-09-14T03:51:02.575Z",
+          "description": "這是關於感測器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "感測器",
+          "views": 10194,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_感測器_1757904734419_2",
+          "title": "感測器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/感測器/3",
+          "publishDate": "2025-09-14T13:19:06.858Z",
+          "description": "這是關於感測器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "感測器",
+          "views": 6007,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_感測器_1757904734419_3",
+          "title": "感測器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/感測器/4",
+          "publishDate": "2025-09-14T09:38:54.693Z",
+          "description": "這是關於感測器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "感測器",
+          "views": 5047,
+          "isHot": false
+        },
+        {
+          "id": "news_AI_TECH_感測器_1757904734419_4",
+          "title": "感測器產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/感測器/5",
+          "publishDate": "2025-09-14T03:01:02.670Z",
+          "description": "這是關於感測器產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "感測器",
+          "views": 7603,
+          "isHot": false
+        }
+      ]
+    }
+  },
+  "TRADITIONAL": {
+    "鋼鐵": {
+      "categoryName": "鋼鐵",
+      "news": [
+        {
+          "id": "news_TRADITIONAL_鋼鐵_1757904734419_0",
+          "title": "鋼鐵產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/鋼鐵/1",
+          "publishDate": "2025-09-14T20:24:02.188Z",
+          "description": "這是關於鋼鐵產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "鋼鐵",
+          "views": 8168,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_鋼鐵_1757904734419_1",
+          "title": "鋼鐵產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/鋼鐵/2",
+          "publishDate": "2025-09-14T18:17:29.132Z",
+          "description": "這是關於鋼鐵產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "鋼鐵",
+          "views": 5755,
+          "isHot": true
+        },
+        {
+          "id": "news_TRADITIONAL_鋼鐵_1757904734419_2",
+          "title": "鋼鐵產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/鋼鐵/3",
+          "publishDate": "2025-09-14T22:56:25.931Z",
+          "description": "這是關於鋼鐵產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "鋼鐵",
+          "views": 5772,
+          "isHot": true
+        },
+        {
+          "id": "news_TRADITIONAL_鋼鐵_1757904734419_3",
+          "title": "鋼鐵產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/鋼鐵/4",
+          "publishDate": "2025-09-14T10:23:18.406Z",
+          "description": "這是關於鋼鐵產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "鋼鐵",
+          "views": 9256,
+          "isHot": true
+        },
+        {
+          "id": "news_TRADITIONAL_鋼鐵_1757904734419_4",
+          "title": "鋼鐵產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/鋼鐵/5",
+          "publishDate": "2025-09-14T04:19:33.599Z",
+          "description": "這是關於鋼鐵產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "鋼鐵",
+          "views": 8110,
+          "isHot": false
+        }
+      ]
+    },
+    "石化": {
+      "categoryName": "石化",
+      "news": [
+        {
+          "id": "news_TRADITIONAL_石化_1757904734419_0",
+          "title": "石化產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/石化/1",
+          "publishDate": "2025-09-14T14:44:15.881Z",
+          "description": "這是關於石化產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "石化",
+          "views": 10404,
+          "isHot": true
+        },
+        {
+          "id": "news_TRADITIONAL_石化_1757904734419_1",
+          "title": "石化產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/石化/2",
+          "publishDate": "2025-09-14T09:02:53.496Z",
+          "description": "這是關於石化產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "石化",
+          "views": 3515,
+          "isHot": true
+        },
+        {
+          "id": "news_TRADITIONAL_石化_1757904734419_2",
+          "title": "石化產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/石化/3",
+          "publishDate": "2025-09-14T14:25:39.304Z",
+          "description": "這是關於石化產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "石化",
+          "views": 8158,
+          "isHot": true
+        },
+        {
+          "id": "news_TRADITIONAL_石化_1757904734419_3",
+          "title": "石化產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/石化/4",
+          "publishDate": "2025-09-14T18:31:06.955Z",
+          "description": "這是關於石化產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "石化",
+          "views": 10525,
+          "isHot": true
+        },
+        {
+          "id": "news_TRADITIONAL_石化_1757904734419_4",
+          "title": "石化產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/石化/5",
+          "publishDate": "2025-09-15T02:14:15.087Z",
+          "description": "這是關於石化產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "石化",
+          "views": 6717,
+          "isHot": true
+        }
+      ]
+    },
+    "紡織": {
+      "categoryName": "紡織",
+      "news": [
+        {
+          "id": "news_TRADITIONAL_紡織_1757904734419_0",
+          "title": "紡織產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/紡織/1",
+          "publishDate": "2025-09-14T08:27:33.286Z",
+          "description": "這是關於紡織產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "紡織",
+          "views": 10670,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_紡織_1757904734419_1",
+          "title": "紡織產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/紡織/2",
+          "publishDate": "2025-09-14T08:58:48.893Z",
+          "description": "這是關於紡織產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "紡織",
+          "views": 1833,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_紡織_1757904734419_2",
+          "title": "紡織產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/紡織/3",
+          "publishDate": "2025-09-14T08:29:23.175Z",
+          "description": "這是關於紡織產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "紡織",
+          "views": 8853,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_紡織_1757904734419_3",
+          "title": "紡織產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/紡織/4",
+          "publishDate": "2025-09-14T17:46:26.846Z",
+          "description": "這是關於紡織產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "紡織",
+          "views": 2144,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_紡織_1757904734419_4",
+          "title": "紡織產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/紡織/5",
+          "publishDate": "2025-09-14T22:43:52.605Z",
+          "description": "這是關於紡織產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "紡織",
+          "views": 9884,
+          "isHot": false
+        }
+      ]
+    },
+    "水泥": {
+      "categoryName": "水泥",
+      "news": [
+        {
+          "id": "news_TRADITIONAL_水泥_1757904734419_0",
+          "title": "水泥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/水泥/1",
+          "publishDate": "2025-09-14T14:19:36.760Z",
+          "description": "這是關於水泥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "水泥",
+          "views": 10552,
+          "isHot": true
+        },
+        {
+          "id": "news_TRADITIONAL_水泥_1757904734419_1",
+          "title": "水泥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/水泥/2",
+          "publishDate": "2025-09-14T07:39:56.750Z",
+          "description": "這是關於水泥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "水泥",
+          "views": 3830,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_水泥_1757904734419_2",
+          "title": "水泥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/水泥/3",
+          "publishDate": "2025-09-14T14:41:41.487Z",
+          "description": "這是關於水泥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "水泥",
+          "views": 10510,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_水泥_1757904734419_3",
+          "title": "水泥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/水泥/4",
+          "publishDate": "2025-09-14T03:24:16.963Z",
+          "description": "這是關於水泥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "水泥",
+          "views": 3332,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_水泥_1757904734419_4",
+          "title": "水泥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/水泥/5",
+          "publishDate": "2025-09-14T13:17:11.321Z",
+          "description": "這是關於水泥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "水泥",
+          "views": 10855,
+          "isHot": false
+        }
+      ]
+    },
+    "造紙": {
+      "categoryName": "造紙",
+      "news": [
+        {
+          "id": "news_TRADITIONAL_造紙_1757904734419_0",
+          "title": "造紙產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造紙/1",
+          "publishDate": "2025-09-14T02:54:24.922Z",
+          "description": "這是關於造紙產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "造紙",
+          "views": 2340,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_造紙_1757904734419_1",
+          "title": "造紙產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造紙/2",
+          "publishDate": "2025-09-14T17:23:24.567Z",
+          "description": "這是關於造紙產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "造紙",
+          "views": 2980,
+          "isHot": true
+        },
+        {
+          "id": "news_TRADITIONAL_造紙_1757904734419_2",
+          "title": "造紙產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造紙/3",
+          "publishDate": "2025-09-14T10:40:19.436Z",
+          "description": "這是關於造紙產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "造紙",
+          "views": 6933,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_造紙_1757904734419_3",
+          "title": "造紙產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造紙/4",
+          "publishDate": "2025-09-14T20:19:14.691Z",
+          "description": "這是關於造紙產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "造紙",
+          "views": 8887,
+          "isHot": false
+        },
+        {
+          "id": "news_TRADITIONAL_造紙_1757904734419_4",
+          "title": "造紙產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造紙/5",
+          "publishDate": "2025-09-14T16:08:02.339Z",
+          "description": "這是關於造紙產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "造紙",
+          "views": 9986,
+          "isHot": false
+        }
+      ]
+    }
+  },
+  "FINANCE": {
+    "銀行": {
+      "categoryName": "銀行",
+      "news": [
+        {
+          "id": "news_FINANCE_銀行_1757904734419_0",
+          "title": "銀行產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/銀行/1",
+          "publishDate": "2025-09-14T08:44:18.229Z",
+          "description": "這是關於銀行產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "銀行",
+          "views": 3631,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_銀行_1757904734419_1",
+          "title": "銀行產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/銀行/2",
+          "publishDate": "2025-09-14T20:09:07.518Z",
+          "description": "這是關於銀行產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "銀行",
+          "views": 9557,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_銀行_1757904734419_2",
+          "title": "銀行產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/銀行/3",
+          "publishDate": "2025-09-14T09:04:15.565Z",
+          "description": "這是關於銀行產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "銀行",
+          "views": 9902,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_銀行_1757904734419_3",
+          "title": "銀行產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/銀行/4",
+          "publishDate": "2025-09-15T01:00:58.498Z",
+          "description": "這是關於銀行產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "銀行",
+          "views": 7911,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_銀行_1757904734419_4",
+          "title": "銀行產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/銀行/5",
+          "publishDate": "2025-09-14T12:18:11.328Z",
+          "description": "這是關於銀行產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "銀行",
+          "views": 3646,
+          "isHot": false
+        }
+      ]
+    },
+    "保險": {
+      "categoryName": "保險",
+      "news": [
+        {
+          "id": "news_FINANCE_保險_1757904734419_0",
+          "title": "保險產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/保險/1",
+          "publishDate": "2025-09-14T19:10:23.966Z",
+          "description": "這是關於保險產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "保險",
+          "views": 9748,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_保險_1757904734419_1",
+          "title": "保險產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/保險/2",
+          "publishDate": "2025-09-15T00:32:28.401Z",
+          "description": "這是關於保險產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "保險",
+          "views": 7986,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_保險_1757904734419_2",
+          "title": "保險產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/保險/3",
+          "publishDate": "2025-09-15T00:54:22.652Z",
+          "description": "這是關於保險產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "保險",
+          "views": 2642,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_保險_1757904734419_3",
+          "title": "保險產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/保險/4",
+          "publishDate": "2025-09-14T07:47:33.912Z",
+          "description": "這是關於保險產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "保險",
+          "views": 1629,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_保險_1757904734419_4",
+          "title": "保險產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/保險/5",
+          "publishDate": "2025-09-14T06:26:10.120Z",
+          "description": "這是關於保險產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "保險",
+          "views": 2391,
+          "isHot": false
+        }
+      ]
+    },
+    "證券": {
+      "categoryName": "證券",
+      "news": [
+        {
+          "id": "news_FINANCE_證券_1757904734419_0",
+          "title": "證券產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/證券/1",
+          "publishDate": "2025-09-15T01:44:02.721Z",
+          "description": "這是關於證券產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "證券",
+          "views": 10505,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_證券_1757904734419_1",
+          "title": "證券產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/證券/2",
+          "publishDate": "2025-09-14T20:19:10.350Z",
+          "description": "這是關於證券產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "證券",
+          "views": 5677,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_證券_1757904734419_2",
+          "title": "證券產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/證券/3",
+          "publishDate": "2025-09-14T05:49:59.209Z",
+          "description": "這是關於證券產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "證券",
+          "views": 7477,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_證券_1757904734419_3",
+          "title": "證券產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/證券/4",
+          "publishDate": "2025-09-14T12:23:09.563Z",
+          "description": "這是關於證券產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "證券",
+          "views": 3518,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_證券_1757904734419_4",
+          "title": "證券產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/證券/5",
+          "publishDate": "2025-09-14T14:31:31.773Z",
+          "description": "這是關於證券產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "證券",
+          "views": 6070,
+          "isHot": false
+        }
+      ]
+    },
+    "金融科技": {
+      "categoryName": "金融科技",
+      "news": [
+        {
+          "id": "news_FINANCE_金融科技_1757904734419_0",
+          "title": "金融科技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/金融科技/1",
+          "publishDate": "2025-09-14T03:57:55.515Z",
+          "description": "這是關於金融科技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "金融科技",
+          "views": 3018,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_金融科技_1757904734419_1",
+          "title": "金融科技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/金融科技/2",
+          "publishDate": "2025-09-14T08:36:46.382Z",
+          "description": "這是關於金融科技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "金融科技",
+          "views": 3022,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_金融科技_1757904734419_2",
+          "title": "金融科技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/金融科技/3",
+          "publishDate": "2025-09-14T23:23:00.806Z",
+          "description": "這是關於金融科技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "金融科技",
+          "views": 7165,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_金融科技_1757904734419_3",
+          "title": "金融科技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/金融科技/4",
+          "publishDate": "2025-09-14T07:00:43.538Z",
+          "description": "這是關於金融科技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "金融科技",
+          "views": 8940,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_金融科技_1757904734419_4",
+          "title": "金融科技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/金融科技/5",
+          "publishDate": "2025-09-15T02:20:47.728Z",
+          "description": "這是關於金融科技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "金融科技",
+          "views": 2534,
+          "isHot": false
+        }
+      ]
+    },
+    "reits": {
+      "categoryName": "REITs",
+      "news": [
+        {
+          "id": "news_FINANCE_REITs_1757904734419_0",
+          "title": "REITs產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/REITs/1",
+          "publishDate": "2025-09-14T11:05:01.387Z",
+          "description": "這是關於REITs產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "REITs",
+          "views": 7248,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_REITs_1757904734419_1",
+          "title": "REITs產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/REITs/2",
+          "publishDate": "2025-09-15T01:58:46.376Z",
+          "description": "這是關於REITs產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "REITs",
+          "views": 9729,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_REITs_1757904734419_2",
+          "title": "REITs產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/REITs/3",
+          "publishDate": "2025-09-14T06:50:34.301Z",
+          "description": "這是關於REITs產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "REITs",
+          "views": 1772,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_REITs_1757904734419_3",
+          "title": "REITs產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/REITs/4",
+          "publishDate": "2025-09-14T18:25:30.060Z",
+          "description": "這是關於REITs產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "REITs",
+          "views": 9288,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_REITs_1757904734419_4",
+          "title": "REITs產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/REITs/5",
+          "publishDate": "2025-09-14T16:46:34.633Z",
+          "description": "這是關於REITs產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "REITs",
+          "views": 7282,
+          "isHot": false
+        }
+      ]
+    },
+    "租賃": {
+      "categoryName": "租賃",
+      "news": [
+        {
+          "id": "news_FINANCE_租賃_1757904734419_0",
+          "title": "租賃產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/租賃/1",
+          "publishDate": "2025-09-15T02:14:25.049Z",
+          "description": "這是關於租賃產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "租賃",
+          "views": 1312,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_租賃_1757904734419_1",
+          "title": "租賃產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/租賃/2",
+          "publishDate": "2025-09-14T14:07:48.346Z",
+          "description": "這是關於租賃產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "租賃",
+          "views": 5782,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_租賃_1757904734419_2",
+          "title": "租賃產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/租賃/3",
+          "publishDate": "2025-09-14T16:31:27.678Z",
+          "description": "這是關於租賃產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "租賃",
+          "views": 6238,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_租賃_1757904734419_3",
+          "title": "租賃產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/租賃/4",
+          "publishDate": "2025-09-14T08:19:07.998Z",
+          "description": "這是關於租賃產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "租賃",
+          "views": 10322,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_租賃_1757904734419_4",
+          "title": "租賃產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/租賃/5",
+          "publishDate": "2025-09-15T02:43:57.166Z",
+          "description": "這是關於租賃產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "租賃",
+          "views": 1475,
+          "isHot": false
+        }
+      ]
+    },
+    "支付": {
+      "categoryName": "支付",
+      "news": [
+        {
+          "id": "news_FINANCE_支付_1757904734419_0",
+          "title": "支付產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/支付/1",
+          "publishDate": "2025-09-14T19:08:47.276Z",
+          "description": "這是關於支付產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "支付",
+          "views": 1572,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_支付_1757904734419_1",
+          "title": "支付產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/支付/2",
+          "publishDate": "2025-09-14T20:59:19.338Z",
+          "description": "這是關於支付產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "支付",
+          "views": 8020,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_支付_1757904734419_2",
+          "title": "支付產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/支付/3",
+          "publishDate": "2025-09-15T02:19:22.459Z",
+          "description": "這是關於支付產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "支付",
+          "views": 9106,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_支付_1757904734419_3",
+          "title": "支付產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/支付/4",
+          "publishDate": "2025-09-14T09:06:18.467Z",
+          "description": "這是關於支付產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "支付",
+          "views": 7112,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_支付_1757904734419_4",
+          "title": "支付產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/支付/5",
+          "publishDate": "2025-09-14T12:16:45.966Z",
+          "description": "這是關於支付產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "支付",
+          "views": 3107,
+          "isHot": false
+        }
+      ]
+    },
+    "信用卡": {
+      "categoryName": "信用卡",
+      "news": [
+        {
+          "id": "news_FINANCE_信用卡_1757904734419_0",
+          "title": "信用卡產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/信用卡/1",
+          "publishDate": "2025-09-14T08:41:58.278Z",
+          "description": "這是關於信用卡產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "信用卡",
+          "views": 5183,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_信用卡_1757904734419_1",
+          "title": "信用卡產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/信用卡/2",
+          "publishDate": "2025-09-14T10:29:45.277Z",
+          "description": "這是關於信用卡產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "信用卡",
+          "views": 2980,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_信用卡_1757904734419_2",
+          "title": "信用卡產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/信用卡/3",
+          "publishDate": "2025-09-14T17:47:20.977Z",
+          "description": "這是關於信用卡產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "信用卡",
+          "views": 2986,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_信用卡_1757904734419_3",
+          "title": "信用卡產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/信用卡/4",
+          "publishDate": "2025-09-14T04:51:18.070Z",
+          "description": "這是關於信用卡產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "信用卡",
+          "views": 6705,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_信用卡_1757904734419_4",
+          "title": "信用卡產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/信用卡/5",
+          "publishDate": "2025-09-14T09:52:43.322Z",
+          "description": "這是關於信用卡產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "信用卡",
+          "views": 9415,
+          "isHot": false
+        }
+      ]
+    },
+    "資產管理": {
+      "categoryName": "資產管理",
+      "news": [
+        {
+          "id": "news_FINANCE_資產管理_1757904734419_0",
+          "title": "資產管理產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/資產管理/1",
+          "publishDate": "2025-09-14T18:37:13.181Z",
+          "description": "這是關於資產管理產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "資產管理",
+          "views": 9213,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_資產管理_1757904734419_1",
+          "title": "資產管理產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/資產管理/2",
+          "publishDate": "2025-09-15T02:09:40.887Z",
+          "description": "這是關於資產管理產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "資產管理",
+          "views": 6725,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_資產管理_1757904734419_2",
+          "title": "資產管理產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/資產管理/3",
+          "publishDate": "2025-09-14T19:57:29.016Z",
+          "description": "這是關於資產管理產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "資產管理",
+          "views": 5547,
+          "isHot": true
+        },
+        {
+          "id": "news_FINANCE_資產管理_1757904734419_3",
+          "title": "資產管理產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/資產管理/4",
+          "publishDate": "2025-09-14T04:44:25.610Z",
+          "description": "這是關於資產管理產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "資產管理",
+          "views": 8826,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_資產管理_1757904734419_4",
+          "title": "資產管理產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/資產管理/5",
+          "publishDate": "2025-09-14T16:50:07.170Z",
+          "description": "這是關於資產管理產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "資產管理",
+          "views": 9068,
+          "isHot": false
+        }
+      ]
+    },
+    "外匯": {
+      "categoryName": "外匯",
+      "news": [
+        {
+          "id": "news_FINANCE_外匯_1757904734419_0",
+          "title": "外匯產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/外匯/1",
+          "publishDate": "2025-09-14T17:24:40.829Z",
+          "description": "這是關於外匯產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "外匯",
+          "views": 6561,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_外匯_1757904734419_1",
+          "title": "外匯產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/外匯/2",
+          "publishDate": "2025-09-14T14:29:08.972Z",
+          "description": "這是關於外匯產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "外匯",
+          "views": 4356,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_外匯_1757904734419_2",
+          "title": "外匯產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/外匯/3",
+          "publishDate": "2025-09-15T00:25:26.075Z",
+          "description": "這是關於外匯產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "外匯",
+          "views": 2424,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_外匯_1757904734419_3",
+          "title": "外匯產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/外匯/4",
+          "publishDate": "2025-09-14T20:03:43.244Z",
+          "description": "這是關於外匯產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "外匯",
+          "views": 2272,
+          "isHot": false
+        },
+        {
+          "id": "news_FINANCE_外匯_1757904734419_4",
+          "title": "外匯產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/外匯/5",
+          "publishDate": "2025-09-14T11:31:29.629Z",
+          "description": "這是關於外匯產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "外匯",
+          "views": 5417,
+          "isHot": false
+        }
+      ]
+    }
+  },
+  "BIOTECH": {
+    "製藥": {
+      "categoryName": "製藥",
+      "news": [
+        {
+          "id": "news_BIOTECH_製藥_1757904734419_0",
+          "title": "製藥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/製藥/1",
+          "publishDate": "2025-09-14T23:00:01.553Z",
+          "description": "這是關於製藥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "製藥",
+          "views": 1178,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_製藥_1757904734419_1",
+          "title": "製藥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/製藥/2",
+          "publishDate": "2025-09-14T06:31:37.267Z",
+          "description": "這是關於製藥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "製藥",
+          "views": 7332,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_製藥_1757904734419_2",
+          "title": "製藥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/製藥/3",
+          "publishDate": "2025-09-14T12:51:45.001Z",
+          "description": "這是關於製藥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "製藥",
+          "views": 9757,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_製藥_1757904734419_3",
+          "title": "製藥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/製藥/4",
+          "publishDate": "2025-09-14T19:52:33.122Z",
+          "description": "這是關於製藥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "製藥",
+          "views": 6878,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_製藥_1757904734419_4",
+          "title": "製藥產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/製藥/5",
+          "publishDate": "2025-09-14T05:20:48.786Z",
+          "description": "這是關於製藥產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "製藥",
+          "views": 2449,
+          "isHot": false
+        }
+      ]
+    },
+    "醫療器材": {
+      "categoryName": "醫療器材",
+      "news": [
+        {
+          "id": "news_BIOTECH_醫療器材_1757904734419_0",
+          "title": "醫療器材產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療器材/1",
+          "publishDate": "2025-09-14T16:26:33.762Z",
+          "description": "這是關於醫療器材產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "醫療器材",
+          "views": 9517,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_醫療器材_1757904734419_1",
+          "title": "醫療器材產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療器材/2",
+          "publishDate": "2025-09-14T21:14:33.427Z",
+          "description": "這是關於醫療器材產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "醫療器材",
+          "views": 9392,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_醫療器材_1757904734419_2",
+          "title": "醫療器材產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療器材/3",
+          "publishDate": "2025-09-14T22:24:39.075Z",
+          "description": "這是關於醫療器材產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "醫療器材",
+          "views": 7003,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_醫療器材_1757904734419_3",
+          "title": "醫療器材產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療器材/4",
+          "publishDate": "2025-09-14T21:44:00.660Z",
+          "description": "這是關於醫療器材產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "醫療器材",
+          "views": 4188,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_醫療器材_1757904734419_4",
+          "title": "醫療器材產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療器材/5",
+          "publishDate": "2025-09-14T22:46:01.470Z",
+          "description": "這是關於醫療器材產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "醫療器材",
+          "views": 3340,
+          "isHot": true
+        }
+      ]
+    },
+    "生技": {
+      "categoryName": "生技",
+      "news": [
+        {
+          "id": "news_BIOTECH_生技_1757904734419_0",
+          "title": "生技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/生技/1",
+          "publishDate": "2025-09-14T08:31:36.055Z",
+          "description": "這是關於生技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "生技",
+          "views": 2964,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_生技_1757904734419_1",
+          "title": "生技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/生技/2",
+          "publishDate": "2025-09-14T03:47:03.239Z",
+          "description": "這是關於生技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "生技",
+          "views": 6177,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_生技_1757904734419_2",
+          "title": "生技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/生技/3",
+          "publishDate": "2025-09-14T17:43:29.338Z",
+          "description": "這是關於生技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "生技",
+          "views": 7223,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_生技_1757904734419_3",
+          "title": "生技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/生技/4",
+          "publishDate": "2025-09-14T19:18:42.244Z",
+          "description": "這是關於生技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "生技",
+          "views": 4981,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_生技_1757904734419_4",
+          "title": "生技產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/生技/5",
+          "publishDate": "2025-09-14T21:18:27.836Z",
+          "description": "這是關於生技產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "生技",
+          "views": 1885,
+          "isHot": false
+        }
+      ]
+    },
+    "醫療服務": {
+      "categoryName": "醫療服務",
+      "news": [
+        {
+          "id": "news_BIOTECH_醫療服務_1757904734419_0",
+          "title": "醫療服務產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療服務/1",
+          "publishDate": "2025-09-14T22:30:16.299Z",
+          "description": "這是關於醫療服務產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "醫療服務",
+          "views": 3268,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_醫療服務_1757904734419_1",
+          "title": "醫療服務產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療服務/2",
+          "publishDate": "2025-09-14T20:57:46.455Z",
+          "description": "這是關於醫療服務產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "醫療服務",
+          "views": 9375,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_醫療服務_1757904734419_2",
+          "title": "醫療服務產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療服務/3",
+          "publishDate": "2025-09-14T13:42:21.909Z",
+          "description": "這是關於醫療服務產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "醫療服務",
+          "views": 8400,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_醫療服務_1757904734419_3",
+          "title": "醫療服務產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療服務/4",
+          "publishDate": "2025-09-14T16:31:18.587Z",
+          "description": "這是關於醫療服務產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "醫療服務",
+          "views": 6991,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_醫療服務_1757904734419_4",
+          "title": "醫療服務產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/醫療服務/5",
+          "publishDate": "2025-09-14T12:11:10.783Z",
+          "description": "這是關於醫療服務產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "醫療服務",
+          "views": 1142,
+          "isHot": true
+        }
+      ]
+    },
+    "美妝保健": {
+      "categoryName": "美妝保健",
+      "news": [
+        {
+          "id": "news_BIOTECH_美妝保健_1757904734419_0",
+          "title": "美妝保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/美妝保健/1",
+          "publishDate": "2025-09-14T03:44:23.656Z",
+          "description": "這是關於美妝保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "美妝保健",
+          "views": 1538,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_美妝保健_1757904734419_1",
+          "title": "美妝保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/美妝保健/2",
+          "publishDate": "2025-09-14T23:11:12.344Z",
+          "description": "這是關於美妝保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "美妝保健",
+          "views": 9181,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_美妝保健_1757904734419_2",
+          "title": "美妝保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/美妝保健/3",
+          "publishDate": "2025-09-15T02:25:10.617Z",
+          "description": "這是關於美妝保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "美妝保健",
+          "views": 5238,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_美妝保健_1757904734419_3",
+          "title": "美妝保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/美妝保健/4",
+          "publishDate": "2025-09-14T15:19:31.736Z",
+          "description": "這是關於美妝保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "美妝保健",
+          "views": 2540,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_美妝保健_1757904734419_4",
+          "title": "美妝保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/美妝保健/5",
+          "publishDate": "2025-09-14T08:46:54.115Z",
+          "description": "這是關於美妝保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "美妝保健",
+          "views": 4113,
+          "isHot": false
+        }
+      ]
+    },
+    "疫苗": {
+      "categoryName": "疫苗",
+      "news": [
+        {
+          "id": "news_BIOTECH_疫苗_1757904734419_0",
+          "title": "疫苗產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/疫苗/1",
+          "publishDate": "2025-09-14T14:06:11.140Z",
+          "description": "這是關於疫苗產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "疫苗",
+          "views": 3199,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_疫苗_1757904734419_1",
+          "title": "疫苗產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/疫苗/2",
+          "publishDate": "2025-09-14T09:15:16.463Z",
+          "description": "這是關於疫苗產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "疫苗",
+          "views": 3075,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_疫苗_1757904734419_2",
+          "title": "疫苗產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/疫苗/3",
+          "publishDate": "2025-09-14T16:49:01.077Z",
+          "description": "這是關於疫苗產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "疫苗",
+          "views": 6568,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_疫苗_1757904734419_3",
+          "title": "疫苗產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/疫苗/4",
+          "publishDate": "2025-09-14T21:04:34.690Z",
+          "description": "這是關於疫苗產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "疫苗",
+          "views": 10744,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_疫苗_1757904734419_4",
+          "title": "疫苗產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/疫苗/5",
+          "publishDate": "2025-09-14T09:23:58.695Z",
+          "description": "這是關於疫苗產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "疫苗",
+          "views": 9095,
+          "isHot": false
+        }
+      ]
+    },
+    "診斷": {
+      "categoryName": "診斷",
+      "news": [
+        {
+          "id": "news_BIOTECH_診斷_1757904734419_0",
+          "title": "診斷產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/診斷/1",
+          "publishDate": "2025-09-14T12:42:30.195Z",
+          "description": "這是關於診斷產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "診斷",
+          "views": 8942,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_診斷_1757904734419_1",
+          "title": "診斷產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/診斷/2",
+          "publishDate": "2025-09-15T02:28:07.916Z",
+          "description": "這是關於診斷產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "診斷",
+          "views": 8952,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_診斷_1757904734419_2",
+          "title": "診斷產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/診斷/3",
+          "publishDate": "2025-09-14T10:40:46.157Z",
+          "description": "這是關於診斷產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "診斷",
+          "views": 2729,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_診斷_1757904734419_3",
+          "title": "診斷產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/診斷/4",
+          "publishDate": "2025-09-14T06:51:10.902Z",
+          "description": "這是關於診斷產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "診斷",
+          "views": 5551,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_診斷_1757904734419_4",
+          "title": "診斷產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/診斷/5",
+          "publishDate": "2025-09-15T01:09:25.386Z",
+          "description": "這是關於診斷產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "診斷",
+          "views": 5023,
+          "isHot": true
+        }
+      ]
+    },
+    "cro": {
+      "categoryName": "CRO",
+      "news": [
+        {
+          "id": "news_BIOTECH_CRO_1757904734419_0",
+          "title": "CRO產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/CRO/1",
+          "publishDate": "2025-09-14T19:34:41.304Z",
+          "description": "這是關於CRO產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "CRO",
+          "views": 4144,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_CRO_1757904734419_1",
+          "title": "CRO產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/CRO/2",
+          "publishDate": "2025-09-14T09:00:12.937Z",
+          "description": "這是關於CRO產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "CRO",
+          "views": 9287,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_CRO_1757904734419_2",
+          "title": "CRO產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/CRO/3",
+          "publishDate": "2025-09-15T01:23:55.698Z",
+          "description": "這是關於CRO產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "CRO",
+          "views": 6779,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_CRO_1757904734419_3",
+          "title": "CRO產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/CRO/4",
+          "publishDate": "2025-09-14T14:31:41.088Z",
+          "description": "這是關於CRO產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "CRO",
+          "views": 8999,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_CRO_1757904734419_4",
+          "title": "CRO產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/CRO/5",
+          "publishDate": "2025-09-14T13:27:47.049Z",
+          "description": "這是關於CRO產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "CRO",
+          "views": 1651,
+          "isHot": false
+        }
+      ]
+    },
+    "營養保健": {
+      "categoryName": "營養保健",
+      "news": [
+        {
+          "id": "news_BIOTECH_營養保健_1757904734419_0",
+          "title": "營養保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/營養保健/1",
+          "publishDate": "2025-09-14T05:28:13.540Z",
+          "description": "這是關於營養保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "營養保健",
+          "views": 9352,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_營養保健_1757904734419_1",
+          "title": "營養保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/營養保健/2",
+          "publishDate": "2025-09-14T05:01:32.082Z",
+          "description": "這是關於營養保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "營養保健",
+          "views": 10332,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_營養保健_1757904734419_2",
+          "title": "營養保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/營養保健/3",
+          "publishDate": "2025-09-14T09:51:00.962Z",
+          "description": "這是關於營養保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "營養保健",
+          "views": 2068,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_營養保健_1757904734419_3",
+          "title": "營養保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/營養保健/4",
+          "publishDate": "2025-09-14T10:55:28.399Z",
+          "description": "這是關於營養保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "營養保健",
+          "views": 6431,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_營養保健_1757904734419_4",
+          "title": "營養保健產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/營養保健/5",
+          "publishDate": "2025-09-14T06:47:35.720Z",
+          "description": "這是關於營養保健產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "營養保健",
+          "views": 1248,
+          "isHot": false
+        }
+      ]
+    },
+    "牙科": {
+      "categoryName": "牙科",
+      "news": [
+        {
+          "id": "news_BIOTECH_牙科_1757904734419_0",
+          "title": "牙科產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/牙科/1",
+          "publishDate": "2025-09-14T20:43:01.684Z",
+          "description": "這是關於牙科產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "牙科",
+          "views": 5219,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_牙科_1757904734419_1",
+          "title": "牙科產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/牙科/2",
+          "publishDate": "2025-09-14T14:31:07.475Z",
+          "description": "這是關於牙科產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "牙科",
+          "views": 4656,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_牙科_1757904734419_2",
+          "title": "牙科產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/牙科/3",
+          "publishDate": "2025-09-14T07:25:01.797Z",
+          "description": "這是關於牙科產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "牙科",
+          "views": 4516,
+          "isHot": false
+        },
+        {
+          "id": "news_BIOTECH_牙科_1757904734419_3",
+          "title": "牙科產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/牙科/4",
+          "publishDate": "2025-09-14T17:40:29.792Z",
+          "description": "這是關於牙科產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "牙科",
+          "views": 1631,
+          "isHot": true
+        },
+        {
+          "id": "news_BIOTECH_牙科_1757904734419_4",
+          "title": "牙科產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/牙科/5",
+          "publishDate": "2025-09-14T11:52:04.938Z",
+          "description": "這是關於牙科產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "牙科",
+          "views": 3842,
+          "isHot": true
+        }
+      ]
+    }
+  },
+  "DEFENSE": {
+    "航太": {
+      "categoryName": "航太",
+      "news": [
+        {
+          "id": "news_DEFENSE_航太_1757904734419_0",
+          "title": "航太產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/航太/1",
+          "publishDate": "2025-09-14T14:30:22.290Z",
+          "description": "這是關於航太產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "航太",
+          "views": 7237,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_航太_1757904734419_1",
+          "title": "航太產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/航太/2",
+          "publishDate": "2025-09-14T09:17:53.835Z",
+          "description": "這是關於航太產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "航太",
+          "views": 2850,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_航太_1757904734419_2",
+          "title": "航太產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/航太/3",
+          "publishDate": "2025-09-14T07:35:16.886Z",
+          "description": "這是關於航太產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "航太",
+          "views": 3057,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_航太_1757904734419_3",
+          "title": "航太產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/航太/4",
+          "publishDate": "2025-09-15T01:45:29.598Z",
+          "description": "這是關於航太產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "航太",
+          "views": 3281,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_航太_1757904734419_4",
+          "title": "航太產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/航太/5",
+          "publishDate": "2025-09-14T10:42:51.156Z",
+          "description": "這是關於航太產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "航太",
+          "views": 8771,
+          "isHot": true
+        }
+      ]
+    },
+    "國防": {
+      "categoryName": "國防",
+      "news": [
+        {
+          "id": "news_DEFENSE_國防_1757904734419_0",
+          "title": "國防產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/國防/1",
+          "publishDate": "2025-09-14T20:40:41.907Z",
+          "description": "這是關於國防產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "國防",
+          "views": 2309,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_國防_1757904734419_1",
+          "title": "國防產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/國防/2",
+          "publishDate": "2025-09-14T11:29:55.483Z",
+          "description": "這是關於國防產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "國防",
+          "views": 5489,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_國防_1757904734419_2",
+          "title": "國防產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/國防/3",
+          "publishDate": "2025-09-14T10:01:44.618Z",
+          "description": "這是關於國防產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "國防",
+          "views": 3548,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_國防_1757904734419_3",
+          "title": "國防產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/國防/4",
+          "publishDate": "2025-09-14T22:28:10.727Z",
+          "description": "這是關於國防產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "國防",
+          "views": 3311,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_國防_1757904734419_4",
+          "title": "國防產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/國防/5",
+          "publishDate": "2025-09-14T12:49:02.298Z",
+          "description": "這是關於國防產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "國防",
+          "views": 8906,
+          "isHot": false
+        }
+      ]
+    },
+    "造船": {
+      "categoryName": "造船",
+      "news": [
+        {
+          "id": "news_DEFENSE_造船_1757904734419_0",
+          "title": "造船產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造船/1",
+          "publishDate": "2025-09-14T09:46:49.451Z",
+          "description": "這是關於造船產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "造船",
+          "views": 1431,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_造船_1757904734419_1",
+          "title": "造船產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造船/2",
+          "publishDate": "2025-09-14T20:13:10.109Z",
+          "description": "這是關於造船產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "造船",
+          "views": 3304,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_造船_1757904734419_2",
+          "title": "造船產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造船/3",
+          "publishDate": "2025-09-14T17:57:52.375Z",
+          "description": "這是關於造船產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "造船",
+          "views": 10772,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_造船_1757904734419_3",
+          "title": "造船產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造船/4",
+          "publishDate": "2025-09-14T11:02:21.313Z",
+          "description": "這是關於造船產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "造船",
+          "views": 3561,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_造船_1757904734419_4",
+          "title": "造船產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/造船/5",
+          "publishDate": "2025-09-15T00:22:35.229Z",
+          "description": "這是關於造船產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "造船",
+          "views": 1591,
+          "isHot": true
+        }
+      ]
+    },
+    "雷達": {
+      "categoryName": "雷達",
+      "news": [
+        {
+          "id": "news_DEFENSE_雷達_1757904734419_0",
+          "title": "雷達產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/雷達/1",
+          "publishDate": "2025-09-14T10:30:54.332Z",
+          "description": "這是關於雷達產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "雷達",
+          "views": 6839,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_雷達_1757904734419_1",
+          "title": "雷達產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/雷達/2",
+          "publishDate": "2025-09-14T04:25:21.768Z",
+          "description": "這是關於雷達產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "雷達",
+          "views": 10811,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_雷達_1757904734419_2",
+          "title": "雷達產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/雷達/3",
+          "publishDate": "2025-09-14T20:41:47.799Z",
+          "description": "這是關於雷達產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "雷達",
+          "views": 3395,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_雷達_1757904734419_3",
+          "title": "雷達產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/雷達/4",
+          "publishDate": "2025-09-14T21:41:09.399Z",
+          "description": "這是關於雷達產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "雷達",
+          "views": 10219,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_雷達_1757904734419_4",
+          "title": "雷達產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/雷達/5",
+          "publishDate": "2025-09-14T09:23:36.958Z",
+          "description": "這是關於雷達產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "雷達",
+          "views": 1377,
+          "isHot": false
+        }
+      ]
+    },
+    "軍用通訊": {
+      "categoryName": "軍用通訊",
+      "news": [
+        {
+          "id": "news_DEFENSE_軍用通訊_1757904734419_0",
+          "title": "軍用通訊產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍用通訊/1",
+          "publishDate": "2025-09-14T21:33:30.736Z",
+          "description": "這是關於軍用通訊產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "軍用通訊",
+          "views": 9757,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_軍用通訊_1757904734419_1",
+          "title": "軍用通訊產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍用通訊/2",
+          "publishDate": "2025-09-14T18:51:11.510Z",
+          "description": "這是關於軍用通訊產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "軍用通訊",
+          "views": 7678,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_軍用通訊_1757904734419_2",
+          "title": "軍用通訊產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍用通訊/3",
+          "publishDate": "2025-09-14T22:35:16.983Z",
+          "description": "這是關於軍用通訊產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "軍用通訊",
+          "views": 7013,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_軍用通訊_1757904734419_3",
+          "title": "軍用通訊產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍用通訊/4",
+          "publishDate": "2025-09-14T17:53:30.234Z",
+          "description": "這是關於軍用通訊產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "軍用通訊",
+          "views": 1169,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_軍用通訊_1757904734419_4",
+          "title": "軍用通訊產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍用通訊/5",
+          "publishDate": "2025-09-14T05:24:30.454Z",
+          "description": "這是關於軍用通訊產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "軍用通訊",
+          "views": 4564,
+          "isHot": false
+        }
+      ]
+    },
+    "飛彈": {
+      "categoryName": "飛彈",
+      "news": [
+        {
+          "id": "news_DEFENSE_飛彈_1757904734419_0",
+          "title": "飛彈產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/飛彈/1",
+          "publishDate": "2025-09-15T00:50:56.026Z",
+          "description": "這是關於飛彈產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "飛彈",
+          "views": 10755,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_飛彈_1757904734419_1",
+          "title": "飛彈產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/飛彈/2",
+          "publishDate": "2025-09-14T03:11:38.820Z",
+          "description": "這是關於飛彈產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "飛彈",
+          "views": 3301,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_飛彈_1757904734419_2",
+          "title": "飛彈產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/飛彈/3",
+          "publishDate": "2025-09-14T13:40:08.074Z",
+          "description": "這是關於飛彈產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "飛彈",
+          "views": 4434,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_飛彈_1757904734419_3",
+          "title": "飛彈產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/飛彈/4",
+          "publishDate": "2025-09-14T14:29:24.555Z",
+          "description": "這是關於飛彈產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "飛彈",
+          "views": 1180,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_飛彈_1757904734419_4",
+          "title": "飛彈產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/飛彈/5",
+          "publishDate": "2025-09-14T04:21:22.642Z",
+          "description": "這是關於飛彈產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "飛彈",
+          "views": 3430,
+          "isHot": false
+        }
+      ]
+    },
+    "裝甲": {
+      "categoryName": "裝甲",
+      "news": [
+        {
+          "id": "news_DEFENSE_裝甲_1757904734419_0",
+          "title": "裝甲產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/裝甲/1",
+          "publishDate": "2025-09-14T09:54:47.449Z",
+          "description": "這是關於裝甲產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "裝甲",
+          "views": 10726,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_裝甲_1757904734419_1",
+          "title": "裝甲產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/裝甲/2",
+          "publishDate": "2025-09-14T17:09:29.164Z",
+          "description": "這是關於裝甲產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "裝甲",
+          "views": 4699,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_裝甲_1757904734419_2",
+          "title": "裝甲產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/裝甲/3",
+          "publishDate": "2025-09-14T16:55:36.000Z",
+          "description": "這是關於裝甲產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "裝甲",
+          "views": 9715,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_裝甲_1757904734419_3",
+          "title": "裝甲產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/裝甲/4",
+          "publishDate": "2025-09-14T21:02:41.545Z",
+          "description": "這是關於裝甲產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "裝甲",
+          "views": 8513,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_裝甲_1757904734419_4",
+          "title": "裝甲產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/裝甲/5",
+          "publishDate": "2025-09-14T12:16:01.067Z",
+          "description": "這是關於裝甲產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "裝甲",
+          "views": 4274,
+          "isHot": false
+        }
+      ]
+    },
+    "光學": {
+      "categoryName": "光學",
+      "news": [
+        {
+          "id": "news_DEFENSE_光學_1757904734419_0",
+          "title": "光學產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光學/1",
+          "publishDate": "2025-09-14T15:47:11.139Z",
+          "description": "這是關於光學產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "光學",
+          "views": 6163,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_光學_1757904734419_1",
+          "title": "光學產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光學/2",
+          "publishDate": "2025-09-14T14:28:20.268Z",
+          "description": "這是關於光學產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "光學",
+          "views": 6115,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_光學_1757904734419_2",
+          "title": "光學產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光學/3",
+          "publishDate": "2025-09-14T22:37:28.810Z",
+          "description": "這是關於光學產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "光學",
+          "views": 8097,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_光學_1757904734419_3",
+          "title": "光學產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光學/4",
+          "publishDate": "2025-09-14T16:20:41.960Z",
+          "description": "這是關於光學產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "光學",
+          "views": 3561,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_光學_1757904734419_4",
+          "title": "光學產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/光學/5",
+          "publishDate": "2025-09-14T15:05:32.774Z",
+          "description": "這是關於光學產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "光學",
+          "views": 3217,
+          "isHot": false
+        }
+      ]
+    },
+    "網路安全": {
+      "categoryName": "網路安全",
+      "news": [
+        {
+          "id": "news_DEFENSE_網路安全_1757904734419_0",
+          "title": "網路安全產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/網路安全/1",
+          "publishDate": "2025-09-15T02:04:54.775Z",
+          "description": "這是關於網路安全產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "網路安全",
+          "views": 8758,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_網路安全_1757904734419_1",
+          "title": "網路安全產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/網路安全/2",
+          "publishDate": "2025-09-15T02:36:51.633Z",
+          "description": "這是關於網路安全產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "網路安全",
+          "views": 4661,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_網路安全_1757904734419_2",
+          "title": "網路安全產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/網路安全/3",
+          "publishDate": "2025-09-14T06:58:10.753Z",
+          "description": "這是關於網路安全產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "網路安全",
+          "views": 8526,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_網路安全_1757904734419_3",
+          "title": "網路安全產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/網路安全/4",
+          "publishDate": "2025-09-14T18:09:41.014Z",
+          "description": "這是關於網路安全產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "網路安全",
+          "views": 7860,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_網路安全_1757904734419_4",
+          "title": "網路安全產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/網路安全/5",
+          "publishDate": "2025-09-14T10:33:39.851Z",
+          "description": "這是關於網路安全產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "網路安全",
+          "views": 2992,
+          "isHot": false
+        }
+      ]
+    },
+    "軍事後勤": {
+      "categoryName": "軍事後勤",
+      "news": [
+        {
+          "id": "news_DEFENSE_軍事後勤_1757904734419_0",
+          "title": "軍事後勤產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍事後勤/1",
+          "publishDate": "2025-09-14T21:56:36.353Z",
+          "description": "這是關於軍事後勤產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "經濟日報",
+          "category": "軍事後勤",
+          "views": 9414,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_軍事後勤_1757904734419_1",
+          "title": "軍事後勤產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍事後勤/2",
+          "publishDate": "2025-09-14T21:15:52.246Z",
+          "description": "這是關於軍事後勤產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "工商時報",
+          "category": "軍事後勤",
+          "views": 5721,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_軍事後勤_1757904734419_2",
+          "title": "軍事後勤產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍事後勤/3",
+          "publishDate": "2025-09-14T16:48:30.109Z",
+          "description": "這是關於軍事後勤產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "聯合報",
+          "category": "軍事後勤",
+          "views": 5915,
+          "isHot": true
+        },
+        {
+          "id": "news_DEFENSE_軍事後勤_1757904734419_3",
+          "title": "軍事後勤產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍事後勤/4",
+          "publishDate": "2025-09-14T22:07:15.518Z",
+          "description": "這是關於軍事後勤產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "中時新聞網",
+          "category": "軍事後勤",
+          "views": 8310,
+          "isHot": false
+        },
+        {
+          "id": "news_DEFENSE_軍事後勤_1757904734419_4",
+          "title": "軍事後勤產業迎來新突破，相關概念股表現亮眼",
+          "url": "https://example.com/news/軍事後勤/5",
+          "publishDate": "2025-09-14T13:59:21.539Z",
+          "description": "這是關於軍事後勤產業的重要新聞內容摘要，顯示該產業的最新發展動態...",
+          "source": "鉅亨網",
+          "category": "軍事後勤",
+          "views": 4424,
+          "isHot": true
+        }
+      ]
+    }
+  }
+}
