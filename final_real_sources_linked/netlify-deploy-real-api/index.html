@@ -19,45 +19,58 @@
 
   <!-- 2) fetch 攔截器 -->
 <script>
-  (function () {
-    const ORIG_FETCH = window.fetch.bind(window);
-    const map = {
-      'data/taiwan-keywords.json': '/.netlify/functions/stock-trends?mode=tw',
-      'data/industry-news.json': '/.netlify/functions/news?mode=industry',
-      'data/us-economic-news.json': '/.netlify/functions/news?mode=us_economic',
-      'data/us-indices.json': '/.netlify/functions/usindices'
-    };
+(function () {
+  const ORIG_FETCH = window.fetch.bind(window);
+  const map = {
+    'data/taiwan-keywords.json': '/.netlify/functions/stock-trends?mode=tw',
+    'data/industry-news.json': '/.netlify/functions/news?mode=industry',
+    'data/us-economic-news.json': '/.netlify/functions/news?mode=us_economic',
+    'data/us-indices.json': '/.netlify/functions/usindices'
+  };
 
-    // 任何被映射的請求：若上游回來不是 JSON，就包成 JSON 回去，避免 r.json() 崩潰
-    window.fetch = async function (input, init) {
-      const url = (typeof input === 'string') ? input : (input && input.url) || '';
-      const target = Object.keys(map).find(k => url.includes(k));
-      const realUrl = target ? map[target] : url;
+  window.fetch = async function (input, init) {
+    const url = (typeof input === 'string') ? input : (input && input.url) || '';
+    const target = Object.keys(map).find(k => url.includes(k));
+    const realUrl = target ? map[target] : url;
 
+    try {
       const res = await ORIG_FETCH(realUrl, init);
-      const ct = (res.headers.get('content-type') || '').toLowerCase();
+      const data = await res.json().catch(() => ({}));
 
-      if (ct.includes('application/json')) {
-        return res; // 正常 JSON，直接給前端
+      if (data && data.ok) {
+        return new Response(JSON.stringify(data.data), {
+          status: 200,
+          headers: { 'content-type': 'application/json' }
+        });
+      } else {
+        console.warn('[fetch fallback]', realUrl, data?.error);
+        // 保底輸出一個安全結構，避免前端爆掉
+        return new Response(JSON.stringify({
+          indices: [],
+          keywords: [],
+          items: []
+        }), {
+          status: 200,
+          headers: { 'content-type': 'application/json' }
+        });
       }
-
-      // 不是 JSON（例如 "Too Many Requests" 純文字），改包裝成 JSON
-      const text = await res.text();
-      const body = JSON.stringify({
-        ok: false,
-        status: res.status,
-        error: 'Upstream returned non-JSON',
-        raw: text.slice(0, 500) // 避免太長
-      });
-      return new Response(body, {
-        status: 200, // 讓前端 r.json() 不要再因狀態碼處理失敗
+    } catch (e) {
+      console.error('[fetch error]', e);
+      return new Response(JSON.stringify({
+        indices: [],
+        keywords: [],
+        items: []
+      }), {
+        status: 200,
         headers: { 'content-type': 'application/json' }
       });
-    };
+    }
+  };
 
-    console.log('[OK] robust interceptors installed');
-  })();
+  console.log('[OK] safe interceptors installed');
+})();
 </script>
+
 
 
   <!-- 3) 全域錯誤護欄 -->
