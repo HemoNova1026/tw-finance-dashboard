@@ -24,6 +24,7 @@
       (function(){
         const ORIG_FETCH = window.fetch.bind(window);
         const map = {
+       +  'data/taiwan-keywords.json': '/.netlify/functions/stock-trends?nocache=1',
           'data/industry-news.json': '/.netlify/functions/news?mode=industry&hl=zh-TW&gl=TW',
           'data/us-economic-news.json': '/.netlify/functions/news?mode=us_econ&hl=zh-TW&gl=TW',
           'data/us-indices.json': '/.netlify/functions/usindices'
