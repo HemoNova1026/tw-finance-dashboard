@@ -4,10 +4,9 @@
 
 [functions]
   node_bundler = "esbuild"
-  external_node_modules = ["jsdom"]
+  external_node_modules = ["jsdom", "google-trends-api", "xml2js"]
 
-
-# 把原本前端要抓的 data/*.json 映射到 Functions
+# 把前端原本會取用的 data/*.json，導到 Functions
 [[redirects]]
   from = "/data/taiwan-keywords.json"
   to = "/.netlify/functions/stock-trends"
@@ -32,11 +31,8 @@
   status = 200
   force = true
 
-# SPA：避免內頁重整 404
+# SPA fallback
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-
-
