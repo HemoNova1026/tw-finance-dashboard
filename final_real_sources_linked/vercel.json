@@ -5,13 +5,11 @@
     { "source": "/assets/(.*)", "destination": "/netlify-deploy-real-api/assets/$1" },
     { "source": "/config.js", "destination": "/netlify-deploy-real-api/config.js" },
 
-    // 你前端原本會打的 data/*.json，改寫到 Vercel Functions
     { "source": "/data/taiwan-keywords.json", "destination": "/api/stock-trends" },
     { "source": "/data/industry-news.json", "destination": "/api/news?mode=industry" },
     { "source": "/data/us-economic-news.json", "destination": "/api/news?mode=us_economic" },
     { "source": "/data/us-indices.json", "destination": "/api/usindices" },
 
-    // SPA 其他靜態檔案（images、favicon 等）從原資料夾提供
     { "source": "/(.*)", "destination": "/netlify-deploy-real-api/$1" }
   ]
 }
