@@ -4,8 +4,7 @@
 
 [functions]
   node_bundler = "esbuild"
-  external_node_modules = ["google-trends-api", "jsdom"]
-
+  external_node_modules = ["jsdom"]
 
 
 # 把原本前端要抓的 data/*.json 映射到 Functions
@@ -38,5 +37,6 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
 
 
