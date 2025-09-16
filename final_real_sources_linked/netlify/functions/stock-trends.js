@@ -1,5 +1,4 @@
 // final_real_sources_linked/netlify/functions/stock-trends.js
-const googleTrends = require('google-trends-api');
 
 const json = (obj, status = 200, headers = {}) => ({
   statusCode: status,
@@ -7,30 +6,32 @@ const json = (obj, status = 200, headers = {}) => ({
   body: JSON.stringify(obj)
 });
 
-async function getDailyTrendsTW(limit = 30) {
-  const raw = await googleTrends.dailyTrends({ geo: 'TW' });
-  const j = JSON.parse(raw);
+// Google Trends Daily (注意：前綴「)]}',」需剝掉)
+const TRENDS_URL = 'https://trends.google.com/trends/api/dailytrends?hl=zh-TW&tz=-480&geo=TW';
+
+async function getDailyTrends(limit = 30) {
+  const r = await fetch(TRENDS_URL);
+  const text = await r.text();
+  const clean = text.replace(/^\)\]\}',?\s*/, ''); // 去掉 JSON 前綴
+  const j = JSON.parse(clean);
   const days = j?.default?.trendingSearchesDays || [];
-  const items = [];
+  const list = [];
   for (const d of days) {
     for (const s of (d.trendingSearches || [])) {
-      if (s?.title?.query) items.push(s.title.query);
+      const q = s?.title?.query;
+      if (q) list.push(q);
     }
   }
-  // 去重後取前 N
-  const uniq = Array.from(new Set(items));
+  // 去重 & 取前 N
+  const uniq = Array.from(new Set(list));
   return uniq.slice(0, limit);
 }
 
 exports.handler = async () => {
   try {
-    const keywords = await getDailyTrendsTW(30);
-    return json({ ok: true, data: { timestamp: Date.now(), keywords } });
+    const keywords = await getDailyTrends(30);
+    return json({ keywords, timestamp: Date.now() });
   } catch (e) {
-    return json({
-      ok: false,
-      error: String(e?.message || e),
-      data: { timestamp: Date.now(), keywords: [] }
-    });
+    return json({ keywords: [], timestamp: Date.now(), note: String(e?.message || e) });
   }
 };
