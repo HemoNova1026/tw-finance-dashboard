@@ -18,30 +18,47 @@
   <script defer src="./config.js"></script>
 
   <!-- 2) fetch 攔截器 -->
-  <script>
-    (function(){
-      const ORIG_FETCH = window.fetch.bind(window);
-      const map = {
-        'data/taiwan-keywords.json': '/.netlify/functions/stock-trends?mode=tw',
-        'data/industry-news.json': '/.netlify/functions/news?mode=industry',
-        'data/us-economic-news.json': '/.netlify/functions/news?mode=us_economic',
-        'data/us-indices.json': '/.netlify/functions/usindices'
-      };
-      window.fetch = async function(input, init) {
-        try {
-          const url = (typeof input === 'string') ? input : (input && input.url) || '';
-          for (const k in map) {
-            if (url.includes(k)) {
-              console.log('[intercept]', url, '→', map[k]);
-              return ORIG_FETCH(map[k], init);
-            }
-          }
-        } catch (e) { console.warn('[interceptor failed]', e); }
-        return ORIG_FETCH(input, init);
-      };
-      console.log('[OK] interceptors installed');
-    })();
-  </script>
+<script>
+  (function () {
+    const ORIG_FETCH = window.fetch.bind(window);
+    const map = {
+      'data/taiwan-keywords.json': '/.netlify/functions/stock-trends?mode=tw',
+      'data/industry-news.json': '/.netlify/functions/news?mode=industry',
+      'data/us-economic-news.json': '/.netlify/functions/news?mode=us_economic',
+      'data/us-indices.json': '/.netlify/functions/usindices'
+    };
+
+    // 任何被映射的請求：若上游回來不是 JSON，就包成 JSON 回去，避免 r.json() 崩潰
+    window.fetch = async function (input, init) {
+      const url = (typeof input === 'string') ? input : (input && input.url) || '';
+      const target = Object.keys(map).find(k => url.includes(k));
+      const realUrl = target ? map[target] : url;
+
+      const res = await ORIG_FETCH(realUrl, init);
+      const ct = (res.headers.get('content-type') || '').toLowerCase();
+
+      if (ct.includes('application/json')) {
+        return res; // 正常 JSON，直接給前端
+      }
+
+      // 不是 JSON（例如 "Too Many Requests" 純文字），改包裝成 JSON
+      const text = await res.text();
+      const body = JSON.stringify({
+        ok: false,
+        status: res.status,
+        error: 'Upstream returned non-JSON',
+        raw: text.slice(0, 500) // 避免太長
+      });
+      return new Response(body, {
+        status: 200, // 讓前端 r.json() 不要再因狀態碼處理失敗
+        headers: { 'content-type': 'application/json' }
+      });
+    };
+
+    console.log('[OK] robust interceptors installed');
+  })();
+</script>
+
 
   <!-- 3) 全域錯誤護欄 -->
   <script>
