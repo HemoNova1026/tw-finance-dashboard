@@ -1,4 +1,5 @@
 // final_real_sources_linked/netlify/functions/stock-trends.js
+const googleTrends = require('google-trends-api');
 
 const json = (obj, status = 200, headers = {}) => ({
   statusCode: status,
@@ -6,31 +7,10 @@ const json = (obj, status = 200, headers = {}) => ({
   body: JSON.stringify(obj)
 });
 
-const TRENDS_URL = 'https://trends.google.com/trends/api/dailytrends?hl=zh-TW&tz=-480&geo=TW';
-
 async function getDailyTrends(limit = 30) {
-  const r = await fetch(TRENDS_URL, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-      'Accept': 'application/json,text/plain,*/*'
-    }
-  });
-  const text = await r.text();
-
-  // Google Trends 有時會回 HTML（擋掉）
-  if (text.startsWith('<!doctype') || text.startsWith('<html')) {
-    throw new Error('Google Trends returned HTML instead of JSON');
-  }
-
-  // 正常 JSON 前綴清理
-  const clean = text.replace(/^\)\]\}',?\s*/, '');
-  let j;
-  try {
-    j = JSON.parse(clean);
-  } catch (e) {
-    throw new Error('Invalid JSON from Google Trends');
-  }
-
+  // 使用套件 dailyTrends
+  const raw = await googleTrends.dailyTrends({ geo: 'TW' });
+  const j = JSON.parse(raw);
   const days = j?.default?.trendingSearchesDays || [];
   const list = [];
   for (const d of days) {
