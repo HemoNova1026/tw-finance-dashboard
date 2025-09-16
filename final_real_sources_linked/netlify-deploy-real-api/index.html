@@ -4,86 +4,84 @@
   <meta charset="UTF-8" />
   <title>台股金融 Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- 正確 CSS (Vite 輸出檔) -->
   <link rel="stylesheet" href="./assets/index-DkxZYwTq.css" />
-
-  <!-- Module Preload for JS -->
   <link rel="modulepreload" href="./assets/index-B4pZZ_yq.js" />
 </head>
 <body>
   <div id="app"></div>
 
-  <!-- 1) 先載設定檔 -->
+  <!-- 若有 config.js 就保留，沒有也不影響 -->
   <script defer src="./config.js"></script>
 
-  <!-- 2) fetch 攔截器 -->
-<script>
-(function () {
-  const ORIG_FETCH = window.fetch.bind(window);
-  const map = {
-    'data/taiwan-keywords.json': '/.netlify/functions/stock-trends?mode=tw',
-    'data/industry-news.json': '/.netlify/functions/news?mode=industry',
-    'data/us-economic-news.json': '/.netlify/functions/news?mode=us_economic',
-    'data/us-indices.json': '/.netlify/functions/usindices'
-  };
+  <!-- 強健 fetch 攔截器：不論上游回什麼，都回「前端安全可用的形狀」 -->
+  <script>
+  (function () {
+    const ORIG_FETCH = window.fetch.bind(window);
+    const MAP = {
+      'data/taiwan-keywords.json': '/.netlify/functions/stock-trends',
+      'data/industry-news.json': '/.netlify/functions/news?mode=industry',
+      'data/us-economic-news.json': '/.netlify/functions/news?mode=us_economic',
+      'data/us-indices.json': '/.netlify/functions/usindices'
+    };
 
-  window.fetch = async function (input, init) {
-    const url = (typeof input === 'string') ? input : (input && input.url) || '';
-    const target = Object.keys(map).find(k => url.includes(k));
-    const realUrl = target ? map[target] : url;
+    function pick(url, obj) {
+      // 把後端回來的 JSON 統一成前端可用的「扁平」形狀
+      if (url.includes('us-indices')) {
+        if (Array.isArray(obj?.indices)) return obj.indices;
+        if (Array.isArray(obj?.data?.indices)) return obj.data.indices;
+        if (Array.isArray(obj)) return obj;
+        return [];
+      }
+      if (url.includes('industry-news') || url.includes('us-economic-news')) {
+        if (Array.isArray(obj?.items)) return obj.items;
+        if (Array.isArray(obj?.data?.items)) return obj.data.items;
+        if (Array.isArray(obj)) return obj;
+        return [];
+      }
+      if (url.includes('taiwan-keywords')) {
+        if (Array.isArray(obj?.keywords)) return obj.keywords;
+        if (Array.isArray(obj?.data?.keywords)) return obj.data.keywords;
+        if (Array.isArray(obj)) return obj;
+        return [];
+      }
+      return obj;
+    }
 
-    try {
-      const res = await ORIG_FETCH(realUrl, init);
-      const data = await res.json().catch(() => ({}));
+    window.fetch = async function (input, init) {
+      const reqUrl = typeof input === 'string' ? input : (input && input.url) || '';
+      const key = Object.keys(MAP).find(k => reqUrl.includes(k));
+      const real = key ? MAP[key] : reqUrl;
 
-      if (data && data.ok) {
-        return new Response(JSON.stringify(data.data), {
+      try {
+        const res = await ORIG_FETCH(real, init);
+        const ctype = (res.headers.get('content-type') || '').toLowerCase();
+        const raw = ctype.includes('application/json') ? await res.json() : { note: await res.text() };
+        const shaped = pick(reqUrl, raw);
+
+        // 回前端期望的「原始 data 形狀」，避免舊程式爆掉
+        return new Response(JSON.stringify(shaped), {
           status: 200,
           headers: { 'content-type': 'application/json' }
         });
-      } else {
-        console.warn('[fetch fallback]', realUrl, data?.error);
-        // 保底輸出一個安全結構，避免前端爆掉
-        return new Response(JSON.stringify({
-          indices: [],
-          keywords: [],
-          items: []
-        }), {
+      } catch (e) {
+        console.error('[fetch fail]', e);
+        // 最後防線：回一個不會讓前端爆掉的空資料
+        const shaped = pick(reqUrl, {});
+        return new Response(JSON.stringify(shaped), {
           status: 200,
           headers: { 'content-type': 'application/json' }
         });
       }
-    } catch (e) {
-      console.error('[fetch error]', e);
-      return new Response(JSON.stringify({
-        indices: [],
-        keywords: [],
-        items: []
-      }), {
-        status: 200,
-        headers: { 'content-type': 'application/json' }
-      });
-    }
-  };
+    };
 
-  console.log('[OK] safe interceptors installed');
-})();
-</script>
-
-
-
-  <!-- 3) 全域錯誤護欄 -->
-  <script>
-    window.addEventListener('error', e => {
-      console.error('[GlobalError]', e.error || e.message || e);
-    });
-    window.addEventListener('unhandledrejection', e => {
-      console.error('[PromiseRejection]', e.reason || e);
-    });
+    // 全域護欄：就算別處 throw，也不要整頁白
+    window.addEventListener('error', e => console.error('[GlobalError]', e?.error || e?.message || e));
+    window.addEventListener('unhandledrejection', e => console.error('[PromiseRejection]', e?.reason || e));
+    console.log('[OK] safe interceptors installed');
+  })();
   </script>
 
-  <!-- 4) 主程式 (Vite 打包輸出檔) -->
+  <!-- Vite 主腳本：一定要 type="module" -->
   <script type="module" crossorigin src="./assets/index-B4pZZ_yq.js"></script>
 </body>
 </html>
