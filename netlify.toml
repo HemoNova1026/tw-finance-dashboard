@@ -1,0 +1,19 @@
+[build]
+  publish = "final_real_sources_linked/netlify-deploy-real-api" # ← 依你的實際路徑
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["xml2js","jsdom","google-trends-api"]
+
+[[redirects]]
+  from = "/data/taiwan-keywords.json"
+  to = "/.netlify/functions/stock-trends"
+  status = 200
+  force = true
+
+  [functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["xml2js", "jsdom", "google-trends-api"]
+
+
