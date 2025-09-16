@@ -6,7 +6,6 @@
   node_bundler = "esbuild"
   external_node_modules = ["xml2js", "jsdom", "google-trends-api"]
 
-# 讓前端原本 fetch 的 data/*.json 自動導到 Functions
 [[redirects]]
   from = "/data/taiwan-keywords.json"
   to = "/.netlify/functions/stock-trends?mode=tw"
@@ -31,14 +30,7 @@
   status = 200
   force = true
 
-# SPA fallback（避免內頁重新整理變 404）
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-# 基本快取（可照你需求再調）
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
