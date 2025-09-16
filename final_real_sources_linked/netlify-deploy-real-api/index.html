@@ -3,16 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <title>台股金融 Dashboard</title>
-  <link rel="stylesheet" href="./assets/index-DkxZYwTq.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- 正確 CSS (Vite 輸出檔) -->
+  <link rel="stylesheet" href="./assets/index-DkxZYwTq.css" />
+
+  <!-- Module Preload for JS -->
+  <link rel="modulepreload" href="./assets/index-B4pZZ_yq.js" />
 </head>
 <body>
   <div id="app"></div>
 
-  <!-- 1) 先載設定檔，供主程式讀取 -->
+  <!-- 1) 先載設定檔 -->
   <script defer src="./config.js"></script>
 
-  <!-- 2) 先裝 fetch 攔截器，把原本的 data/*.json 轉到 Netlify Functions -->
+  <!-- 2) fetch 攔截器 -->
   <script>
     (function(){
       const ORIG_FETCH = window.fetch.bind(window);
@@ -38,7 +43,17 @@
     })();
   </script>
 
-  <!-- 3) 最後載入真正打包出的 JS（有雜湊檔名） -->
-  <script defer src="./assets/index-B4pZZ_yq.js"></script>
+  <!-- 3) 全域錯誤護欄 -->
+  <script>
+    window.addEventListener('error', e => {
+      console.error('[GlobalError]', e.error || e.message || e);
+    });
+    window.addEventListener('unhandledrejection', e => {
+      console.error('[PromiseRejection]', e.reason || e);
+    });
+  </script>
+
+  <!-- 4) 主程式 (Vite 打包輸出檔) -->
+  <script type="module" crossorigin src="./assets/index-B4pZZ_yq.js"></script>
 </body>
 </html>
