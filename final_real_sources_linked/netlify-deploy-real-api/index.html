@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <title>台股金融 Dashboard</title>
-  <link rel="stylesheet" href="./assets/index-xxxx.css" />
+  <link rel="stylesheet" href="./assets/index-DkxZYwTq.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
   <div id="app"></div>
 
-  <!-- 主程式 -->
-  <script defer src="./bundle.js"></script>
+  <!-- 1) 先載設定檔，供主程式讀取 -->
+  <script defer src="./config.js"></script>
 
-  <!-- 攔截器 / 客製化 fetch -->
-  <script defer>
+  <!-- 2) 先裝 fetch 攔截器，把原本的 data/*.json 轉到 Netlify Functions -->
+  <script>
     (function(){
       const ORIG_FETCH = window.fetch.bind(window);
       const map = {
@@ -23,23 +24,21 @@
       };
       window.fetch = async function(input, init) {
         try {
-          const url = (typeof input === 'string') ? input : (input && input.url);
+          const url = (typeof input === 'string') ? input : (input && input.url) || '';
           for (const k in map) {
             if (url.includes(k)) {
               console.log('[intercept]', url, '→', map[k]);
               return ORIG_FETCH(map[k], init);
             }
           }
-        } catch(e) {
-          console.warn('[interceptor failed]', e);
-        }
+        } catch (e) { console.warn('[interceptor failed]', e); }
         return ORIG_FETCH(input, init);
       };
       console.log('[OK] interceptors installed');
     })();
   </script>
 
-  <!-- 其他客製 JS -->
-  <script defer src="./news-client.js"></script>
+  <!-- 3) 最後載入真正打包出的 JS（有雜湊檔名） -->
+  <script defer src="./assets/index-B4pZZ_yq.js"></script>
 </body>
 </html>
