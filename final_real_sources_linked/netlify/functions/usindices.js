@@ -6,12 +6,8 @@ const json = (obj, status = 200, headers = {}) => ({
 });
 
 async function getLiveData() {
-  // TODO: 這裡放你原本抓美股四大指數的程式。
-  // 範例：丟到某個 API；示意而已：
-  // const r = await fetch(SOME_URL);
-  // if (!r.ok) throw new Error(`upstream ${r.status}: ${await r.text()}`);
-  // return await r.json();
-  return { // 先給個保底假資料，避免頻率限制時整站掛掉
+  // TODO: 這裡放你原本抓美股四大指數的程式
+  return {
     timestamp: Date.now(),
     indices: [
       { symbol: '^DJI', last: null },
@@ -28,10 +24,6 @@ exports.handler = async () => {
     const data = await getLiveData();
     return json({ ok: true, data }, 200, { 'cache-control': 'public, max-age=60' });
   } catch (e) {
-    // 關鍵：就算炸掉也「回 JSON」
-    return json({
-      ok: false,
-      error: String(e && e.message || e),
-    }, 200); // 前端只會看到 ok:false，不會白畫面
+    return json({ ok: false, error: String(e?.message || e) }, 200);
   }
 };
