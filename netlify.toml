@@ -4,6 +4,8 @@
 
 [functions]
   node_bundler = "esbuild"
+  external_node_modules = ["google-trends-api"]
+
 
 # 把原本前端要抓的 data/*.json 映射到 Functions
 [[redirects]]
@@ -35,3 +37,4 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
