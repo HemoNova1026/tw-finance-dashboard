@@ -6,12 +6,16 @@ const { JSDOM } = jsdom;
 
 const json = (obj, status = 200, headers = {}) => ({
   statusCode: status,
-  headers: { 'content-type': 'application/json', 'cache-control': 'public, max-age=300', ...headers },
+  headers: {
+    'content-type': 'application/json',
+    'cache-control': 'public, max-age=300',
+    ...headers
+  },
   body: JSON.stringify(obj)
 });
 
-// 主要來源：Google Trends
-async function getTrends(limit = 30) {
+// --- Google Trends 主來源 ---
+async function getGoogleTrends(limit = 20) {
   const raw = await googleTrends.dailyTrends({ geo: 'TW' });
   const j = JSON.parse(raw);
   const days = j?.default?.trendingSearchesDays || [];
@@ -22,35 +26,40 @@ async function getTrends(limit = 30) {
       if (q) list.push(q);
     }
   }
-  const uniq = Array.from(new Set(list));
-  return uniq.slice(0, limit);
+  return Array.from(new Set(list)).slice(0, limit);
 }
 
-// 備援來源：PTT Stock 熱門標題
+// --- PTT Stock 備援 ---
 async function getPTT(limit = 20) {
   const r = await fetch('https://www.ptt.cc/bbs/Stock/index.html', {
     headers: { 'User-Agent': 'Mozilla/5.0' }
   });
   const html = await r.text();
   const dom = new JSDOM(html);
-  const titles = [...dom.window.document.querySelectorAll('.title a')].map(a => a.textContent.trim());
+  const titles = [...dom.window.document.querySelectorAll('.title a')]
+    .map(a => a.textContent.trim())
+    .filter(Boolean);
   return titles.slice(0, limit);
 }
 
+// --- Lambda handler ---
 exports.handler = async () => {
   try {
-    let keywords = await getTrends(30);
+    let keywords = [];
+    try {
+      keywords = await getGoogleTrends(20);
+    } catch (e) {
+      console.warn('Google Trends failed:', e.message);
+    }
     if (!keywords || keywords.length === 0) {
-      // 如果 Trends 沒抓到 → 用 PTT 備援
       keywords = await getPTT(20);
     }
     return json({ keywords, timestamp: Date.now() });
   } catch (e) {
-    // 兩邊都失敗 → 至少回 note
     return json({
       keywords: [],
       timestamp: Date.now(),
-      note: String(e?.message || e)
+      note: 'Both sources failed: ' + String(e?.message || e)
     });
   }
 };
