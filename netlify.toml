@@ -1,19 +1,28 @@
 [build]
-  publish = "final_real_sources_linked/netlify-deploy-real-api" # ← 依你的實際路徑
-  functions = "netlify/functions"
-
-[functions]
-  node_bundler = "esbuild"
-  external_node_modules = ["xml2js","jsdom","google-trends-api"]
+  publish = "final_real_sources_linked/netlify-deploy-real-api"
+  functions = "final_real_sources_linked/netlify/functions"
 
 [[redirects]]
   from = "/data/taiwan-keywords.json"
-  to = "/.netlify/functions/stock-trends"
+  to = "/.netlify/functions/stock-trends?mode=tw"
   status = 200
-  force = true
 
-  [functions]
-  node_bundler = "esbuild"
-  external_node_modules = ["xml2js", "jsdom", "google-trends-api"]
+[[redirects]]
+  from = "/data/industry-news.json"
+  to = "/.netlify/functions/news?mode=industry"
+  status = 200
 
+[[redirects]]
+  from = "/data/us-economic-news.json"
+  to = "/.netlify/functions/news?mode=us_economic"
+  status = 200
 
+[[redirects]]
+  from = "/data/us-indices.json"
+  to = "/.netlify/functions/usindices"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
