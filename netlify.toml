@@ -4,11 +4,11 @@
 
 [functions]
   node_bundler = "esbuild"
-  external_node_modules = ["xml2js", "jsdom", "google-trends-api"]
 
+# 把原本前端要抓的 data/*.json 映射到 Functions
 [[redirects]]
   from = "/data/taiwan-keywords.json"
-  to = "/.netlify/functions/stock-trends?mode=tw"
+  to = "/.netlify/functions/stock-trends"
   status = 200
   force = true
 
@@ -30,6 +30,7 @@
   status = 200
   force = true
 
+# SPA：避免內頁重整 404
 [[redirects]]
   from = "/*"
   to = "/index.html"
