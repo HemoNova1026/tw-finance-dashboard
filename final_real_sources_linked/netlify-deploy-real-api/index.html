@@ -1,39 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <title>台股金融 Dashboard</title>
-  <link rel="stylesheet" href="/assets/index-xxxx.css" />
-  
-  <!-- ✅ 把攔截器放這裡，bundle 載入前 -->
-  <script>
-  (function(){
-    const ORIG_FETCH = window.fetch.bind(window);
-    const map = {
-      'data/taiwan-keywords.json': '/.netlify/functions/stock-trends?nocache=1',
-      'data/industry-news.json': '/.netlify/functions/news?mode=industry&hl=zh-TW&gl=TW',
-      'data/us-economic-news.json': '/.netlify/functions/news?mode=us_econ&hl=zh-TW&gl=TW',
-      'data/us-indices.json': '/.netlify/functions/usindices'
-    };
-    window.fetch = async function(input, init){
-      try {
-        const url = (typeof input === 'string') ? input : (input && input.url) || '';
-        for (const k in map){
-          if (url.includes(k)){
-            console.log('[intercept]', url, '→', map[k]);
-            return ORIG_FETCH(map[k], init);
-          }
-        }
-      } catch(e){ console.warn('interceptor failed', e); }
-      return ORIG_FETCH(input, init);
-    };
-    console.log('[ALL interceptors installed]');
-  })();
-  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NOVA Finance</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- 防快取（調整版本號即可逼瀏覽器重抓） -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 </head>
 <body>
-  <div id="app"></div>
-  <!-- ⚠️ bundle.js 一定要放在攔截器之後 -->
-  <script src="/assets/index-xxxx.js"></script>
+  <!-- 掛載點 -->
+  <div id="app">
+    <noscript>本頁需要啟用 JavaScript</noscript>
+  </div>
+
+  <!-- 先載核心（內含 render、UI 元件等） -->
+  <script defer src="./bundle.js?v=3"></script>
+
+  <!-- 再載你後來加的新聞/關鍵字邏輯 -->
+  <script defer src="./news-client.js?v=3"></script>
+
+  <!-- 啟動偵錯：頁面載入後確認 DOM 與資源 -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      try {
+        const el = document.getElementById('app');
+        if (!el) {
+          console.error('[FATAL] #app 掛載點缺失，請在 index.html 放 <div id="app"></div>');
+        } else {
+          console.log('[OK] #app 存在');
+        }
+
+        // 簡單確認 JSON 路徑是否正確（若無此檔可刪這段）
+        fetch('./data/taiwan-keywords.json?_v=3')
+          .then(r => {
+            console.log('[CHECK] taiwan-keywords.json status:', r.status);
+            if (!r.ok) throw new Error('JSON 路徑錯或 404');
+            return r.json();
+          })
+          .then(j => console.log('[CHECK] 讀到關鍵字筆數:', Array.isArray(j) ? j.length : Object.keys(j || {}).length))
+          .catch(err => console.warn('[WARN] 無法讀取 taiwan-keywords.json：', err?.message));
+      } catch (e) {
+        console.error('[BOOT] 啟動時例外：', e);
+      }
+    });
+  </script>
 </body>
 </html>
